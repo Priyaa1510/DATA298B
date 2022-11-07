@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # using the best weights!
-!python detect.py --weights /content/DATA298B/best.pt --img 704 --conf 0.3 --source /content/DATA298B/ProducersLivestock --save-txt
+python detect.py --weights /content/DATA298B/best.pt --img 704 --conf 0.3 --source /content/DATA298B/ProducersLivestock --save-txt
 
 import glob
 
